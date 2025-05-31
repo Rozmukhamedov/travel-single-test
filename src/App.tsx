@@ -66,7 +66,7 @@ export default function Home() {
     );
 
   return (
-    <div className="max-w-md mx-auto bg-[#EBF0F5] h-screen pb-20">
+    <div className="w-full max-w-md mx-auto bg-[#EBF0F5] min-h-screen pb-20 overflow-y-auto">
       <THeader />
       <div className="p-[10px]">
         <TTourOperatorInfo />

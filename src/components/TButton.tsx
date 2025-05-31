@@ -19,12 +19,12 @@ export default function TButton({
 
   const sizeStyles =
     variant === "primary"
-      ? "w-[120px] h-[50px] px-4 bg-[#0054A2] text-white hover:bg-[#003f7d]"
-      : "w-[160px] h-[50px] px-4 bg-white text-black border border-gray-200 hover:bg-gray-100";
+      ? "w-full h-[50px] bg-[#0054A2] text-white hover:bg-[#003f7d]"
+      : "w-full h-[50px] bg-white text-[#141414] border border-[#E1E1E1] hover:bg-gray-100";
 
   return (
     <button onClick={onClick} className={classNames(baseStyles, sizeStyles)}>
-      {icon && <span className="mr-1">{icon}</span>}
+      {icon && <span className="flex-shrink-0">{icon}</span>}
       {children}
     </button>
   );
