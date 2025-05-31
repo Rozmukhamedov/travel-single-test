@@ -1,0 +1,64 @@
+.tourcard-title {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 19.07px;
+  line-height: 150%;
+  letter-spacing: -1.1%;
+  vertical-align: middle;
+  color: #141414;
+}
+
+.tourcard-location {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 13.35px;
+  line-height: 19.07px;
+  letter-spacing: 0.19px;
+  color: #141414;
+}
+
+.tourcard-icons svg {
+  width: 23px;
+  height: 22px;
+  fill: #0054a2;
+  flex-shrink: 0;
+}
+
+.tourcard-description {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 16.21px;
+  line-height: 19.07px;
+  letter-spacing: -0.5px;
+  vertical-align: middle;
+  color: #141414;
+}
+
+.tourcard-badge {
+  background-color: #f1f5f9;
+  color: #141414;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.tourcard-badge-scroll {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  margin-bottom: 10px;
+  scrollbar-width: none; /* Firefox */
+}
+.tourcard-badge-scroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.tourcard-price-container {
+  border-top: 1px dashed #94b5ff;
+  margin-top: 10;
+  padding-top: 10px;
+}
